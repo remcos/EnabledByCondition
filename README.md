@@ -15,5 +15,6 @@ This widget allows you to only enable buttons when a certain condition is met. T
 ## Configuration
 1.	Create a microflow or nanoflow that has the Context Entity as input parameter.
 2.	End the flow with a boolean value, which determines whether the button(s) should be enabled (true) or not (false).
-3.	Give the button(s) a class and input that class name into the widget.
-4.	Select the created micro- or nanoflow in the widget.
+3.	Add the EnabledByCondition widget below the buttons that it affects.
+4.  Give the button(s) a class and put add that class name in the widget behaviour settings.
+5.	Select the created micro- or nanoflow in the widget.
